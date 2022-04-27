@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="x-ua-Compatible" content="IE=10">
+<title>
+"For each in VBSCript"
+</title>
+<script language ="vbscript" type="text/vbscript">
+
+document.write( "Demo on Date Functions " & "<br />")
+
+document.write ("The current system date is:" &Date & "<br \>")
+
+document.write ("The current system date is using now:" &now & "<br \>")
+
+document.write( "Demo on DateAdd Function " & "<br />")
+
+document.write ("The DateAdd function yyyy:" &DateAdd("yyyy",3,date) & "<br \>")
+document.write ("The DateAdd function q:" &DateAdd("q",3,date) & "<br \>")
+document.write ("The DateAdd function m:" &DateAdd("m",3,date) & "<br \>")
+document.write ("The DateAdd function y:" &DateAdd("y",3,date) & "<br \>")
+document.write ("The DateAdd function d:" &DateAdd("d",3,date) & "<br \>")
+document.write ("The DateAdd function w:" &DateAdd("w",3,date) & "<br \>")
+document.write ("The DateAdd function ww:" &DateAdd("ww",3,date) & "<br \>")
+document.write ("The DateAdd function h:" &DateAdd("h",3,"31-Jan-2015 08:50:00") & "<br \>")
+document.write ("The DateAdd function n:" &DateAdd("n",3,"31-Jan-2015 08:50:00") & "<br \>")
+document.write ("The DateAdd function s:" &DateAdd("s",3,"31-Jan-2015 08:50:00") & "<br \>")
+
+
+document.write( "Demo on DateDiff Function " & "<br />")
+fromdate="31-Jan-14 00:00:00"
+todate="31-jan-15 23:59:00"
+document.write ("The DateAdd function yyyy:" &DateDiff("yyyy",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function q:" &DateDiff("q",fromdate,todate) & "<br \>" )
+document.write ("The DateAdd function m:" &DateDiff("m",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function y:" &DateDiff("y",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function d:" &DateDiff("d",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function w:" &DateDiff("w",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function ww:" &DateDiff("ww",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function h:" &DateDiff("h",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function n:" &DateDiff("n",fromdate,todate) & "<br \>")
+document.write ("The DateAdd function s:" &DateDiff("s",fromdate,todate) )
+
+</script>
+
+</body>
+</html>
+

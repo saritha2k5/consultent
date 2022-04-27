@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="x-ua-Compatible" content="IE=10">
+<title>
+"For each in VBSCript"
+</title>
+</head>
+<body>
+<script language ="vbscript" type="text/vbscript">
+
+
+
+document.write("Example for showing procedures"&"<br />")
+
+Function concat(fn,ln)
+
+fullname=fn&ln
+
+concat=fullname
+End Function
+
+
+msgbox concat("john","hp")
+
+</script>
+
+</body>
+</html>
+

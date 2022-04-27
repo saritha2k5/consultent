@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta http-equiv="x-ua-Compatible" content="IE=10">
+<title>
+"Variables in VBSCript"
+</title>
+<script language ="vbscript" type="text/vbscript">
+Option Explict
+Dim Num1
+Dim Num2
+Dim Num3
+Call scopevar()
+Function scopevar()
+Num1=2
+Num2=5
+Num3=Num1*Num2
+Msgbox("The product of two values num3:"&Num3)'displays 10
+End Function
+
+msgbox ("Num1 value is:"&Num1)
+msgbox ("Num2 value is:"&Num2)
+msgbox ("Num3 value is:"&Num3)
+
+
+
+
+
+</script>
+
+
+<script language ="vbscript" type="text/vbscript">
+Option Explicit
+Dim Num4
+Dim Num5
+Dim Num6
+Call scopevar1()
+Function scopevar1()
+Num4=20
+Num5=50
+num6=num4*num5
+Msgbox("The product of two values num6:"&num6)'displays 1000
+End Function
+
+msgbox ("Scrip2 Num4 value is:"&Num4)
+msgbox ("Script2 Num5 value is:"&Num5)
+msgbox ("Script2 Num6 value is:"&Num6)
+msgbox ("Script2 Num1 value is:"&Num1)
+msgbox ("Script2 Num2 value is:"&Num2)
+msgbox ("Script2 Num3 value is:"&Num3)
+
+
+
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
+
